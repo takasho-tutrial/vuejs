@@ -5,3 +5,9 @@ machine:
 general:
   artifacts:
     - "dist"
+
+deployment:
+  master:
+    branch: master
+    commands:
+      - npm run deploy
