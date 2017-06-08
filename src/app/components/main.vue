@@ -1,23 +1,18 @@
 <template lang="pug">
 #app
-  p  {{name}}, hello!
+  counter
 </template>
 
 <script>
 /* @flow */
+import counter from './counter.vue'
+
 export default {
-  data () {
-    return {
-      name: 'Takasho'
-    }
+  components: {
+    counter
   }
 }
 </script>
 
 <style scoped lang='scss'>
-#app{
-  p{
-    font-size: 30px;
-  }
-}
 </style>
