@@ -2,11 +2,11 @@
 #app
   p  Count : {{ $store.state.count }}
   button(v-on:click="increment")
-    | +
+    | increment
   button(v-on:click="decrement")
-    | -
+    | decrement
   button(v-on:click="incrementAsync")
-    | +-+
+    | incrementAsync
 </template>
 
 <script>

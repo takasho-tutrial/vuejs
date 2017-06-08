@@ -1,7 +1,11 @@
 /* @flow */
 const actions = {
-  increment: ({ commit }) => commit('increment'),
-  decrement: ({ commit }) => commit('decrement'),
+  increment: ({ commit }) => {
+    commit('increment')
+  },
+  decrement: ({ commit }) => {
+    commit('decrement')
+  },
   incrementAsync: ({ commit }) => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {

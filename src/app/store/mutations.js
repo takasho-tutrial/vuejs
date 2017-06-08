@@ -5,9 +5,6 @@ const mutations = {
   },
   decrement (state) {
     state.count--
-  },
-  incrementAsync (state) {
-    state.count++
   }
 }
 
