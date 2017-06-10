@@ -12,7 +12,7 @@
     "lint:flow": "flow",
     "lint:eslint": "eslint . --cache",
     "prebuild": "rimraf dist",
-    "predeploy": "rimraf dist",
+    "predeploy": "npm run build",
     "prestart": "npm run build",
     "start": "webpack-dev-server --content-base dist/",
     "test": "npm-run-all -p test:*",
