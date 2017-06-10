@@ -2,11 +2,10 @@
 /* eslint no-new: 0 */
 import Vue from 'vue'
 
-import main from './components/main.vue'
 import store from './store'
+import router from './router'
 
 new Vue({
   store,
-  el: '#app',
-  render: h => h(main)
-})
+  router
+}).$mount('#app')

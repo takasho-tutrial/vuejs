@@ -1,5 +1,6 @@
 <template lang="pug">
 #app
+  router-link(to='/') Back to Top
   p  Count : {{ $store.state.count }}
   button(v-on:click="increment")
     | increment
