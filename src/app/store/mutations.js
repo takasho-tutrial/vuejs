@@ -5,6 +5,9 @@ const mutations = {
   },
   decrement (state) {
     state.count--
+  },
+  addTodo (state, todo) {
+    state.todos.push(todo)
   }
 }
 

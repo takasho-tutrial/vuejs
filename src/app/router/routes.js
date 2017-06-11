@@ -1,5 +1,6 @@
 import topComponent from '../components/top.vue'
 import counterComponent from '../components/counter.vue'
+import todoComponent from '../components/todo.vue'
 
 const routes = [
   {
@@ -8,8 +9,11 @@ const routes = [
   },
   {
     path: '/counter',
-    name: 'counter',
     component: counterComponent
+  },
+  {
+    path: '/todo',
+    component: todoComponent
   },
   {
     path: '**',

@@ -9,7 +9,8 @@ import actions from './actions'
 Vue.use(Vuex)
 
 const state = {
-  count: 10
+  count: 10,
+  todos: ['1', '2', '3', '4']
 }
 
 const store = new Vuex.Store({
