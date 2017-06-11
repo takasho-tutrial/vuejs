@@ -13,6 +13,9 @@ const actions = {
         resolve()
       }, 1000)
     })
+  },
+  addTodo: ({ commit }, value) => {
+    commit('addTodo', value)
   }
 }
 

@@ -1,7 +1,11 @@
 <template lang="pug">
 .application
   h1 Top
-  router-link(to="/counter") Go to Counter applicaton
+  ul
+    li
+      router-link(to="/counter") Counter
+    li
+      router-link(to="/todo") Todo  
 </template>
 
 <script>

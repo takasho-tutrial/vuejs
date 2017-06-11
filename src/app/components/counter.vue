@@ -14,8 +14,6 @@
 /* @flow */
 import { mapActions } from 'vuex'
 
-import store from '../store'
-
 export default {
   methods: mapActions([
     'increment',
