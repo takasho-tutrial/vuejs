@@ -1,5 +1,7 @@
 # The tutrial for Vue.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/takasho-tutrial/vuejs.svg)](https://greenkeeper.io/)
+
 ## Install
 
 ### Via npm
