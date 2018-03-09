@@ -22,7 +22,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@takasho/eslint-config-flowtype": "^0.0.1",
+    "@takasho/eslint-config-flowtype": "^0.0.9",
     "babel": "^6.23.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.3",
