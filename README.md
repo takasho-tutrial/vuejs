@@ -1,6 +1,6 @@
 # The tutrial for Vue.js
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/takasho-tutrial/vuejs.svg)](https://greenkeeper.io/)
+[![CircleCI](https://circleci.com/gh/takasho-tutrial/vuejs/tree/master.svg?style=svg)](https://circleci.com/gh/takasho-tutrial/vuejs/tree/master)
 
 ## Install
 
